@@ -1,0 +1,2156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+     <!-- AOS CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+     <!-- Favicon and Touch Icons  -->
+     <link rel="shortcut icon" href="images/logo/favicon.png">
+     <link rel="apple-touch-icon-precomposed" href="images/logo/favicon.png">
+
+    <!-- Moon icon -->
+    <link rel="stylesheet" href="./fonts/icomoon-cufonfonts-webfont/style.css">
+
+    <!-- Font awesome icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+  <!-- Include Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel/dist/assets/owl.theme.default.min.css">
+
+  
+    <!-- Kumb sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Modave</title>
+</head>
+<body>
+    <div>
+         <div class="header">
+               <div class="head-first">
+                   <div class="head-btn">
+                        <p><a href="#">315-666-6688</a></p>
+                        <p><a href="#"> themesflat@gmail.com</a></p>
+                        <p><a href="#">Our Store</a></p>
+                        
+                   </div>
+                   <!-- <div> -->
+
+                    <div class="flag_dropdown">
+                        <div class="flag">
+                            <button onclick="flag_myFunction()" class="flag_dropbtn">
+                                <img src="./images/us.svg" alt="US Flag" style="width:20px; height:20px; margin-right:7px;">
+                                <p>USD</p>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            
+                            <div id="flag_Dropdown" class="flagdrop-content">
+                                <a href="#"><img src="./images//us.svg"/>USD</a>
+                                <a href="#"><img src="./images/vn.svg"/>VND</a>
+                            </div>
+                        </div>
+                    
+                        <div>
+                            <button onclick="myFunction()" class="dropbtn">English <i class="fa-solid fa-chevron-down"></i></button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#">English</a>
+                                <a href="#">Veitnam</a>
+                                <!-- <a href="#">Link 3</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                        <!-- <div class="dropdown">
+                            
+                            <div>
+                                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                                </div>
+                            </div>
+                            
+                        </div> -->
+                    <!-- </div> -->
+               </div> 
+
+               <!-- Header second part -->
+               <div class="head-second">
+
+
+
+                 <!-- Hamburger Icon -->
+                 <div class="hamburger" id="hamburger-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                
+                <div style="display: flex; align-items: center;">
+                    <a href="#"><img src="./images/logo.svg"/> </a>
+                </div>
+                
+               <div class="ham-links" >
+                    <div>
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div>
+                        <form class="form-search">
+                            <fieldset class="text">
+                                <input type="text" placeholder="What are you looking for?" class="" name="text" tabindex="0" value="" aria-required="true" required="">
+                            </fieldset>
+                            <button class="" type="submit">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#181818" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M20.9984 20.9999L16.6484 16.6499" stroke="#181818" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>                                
+                            </button>
+                        </form>
+                    </div>
+                    <div class="ham-ul-links">
+                        <ul>
+                            <li><a href="#">Home <i class="fa-solid fa-plus"></i></a>
+                                <ul class="ham-li">
+                                    <li><a href="#">Men</a></li>
+                                    <li><a href="#">Women</a></li>
+                                    <li><a href="#">Kids</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Shop <i class="fa-solid fa-plus"></i></i></a>
+                                <ul class="ham-li">
+                                    <li><a href="#">Men</a></li>
+                                    <li><a href="#">Women</a></li>
+                                    <li><a href="#">Kids</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Products <i class="fa-solid fa-plus"></i></a>
+                                <ul class="ham-li">
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Blog<i class="fa-solid fa-plus"></i></a>
+                                <ul class="ham-li">
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Pages <i class="fa-solid fa-plus"></i></a>
+                                <ul class="ham-li">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Buy Theme</a></li>
+                        </ul>
+                    </div>
+                    <div class="ham-add" style="margin-bottom: 50px;">
+                        <div class="ham-info-btn">
+                            <a><i class="fa-regular fa-heart"></i>Whislist</a>
+                            <a><i class="fa-solid fa-person"></i> Login</a>
+                        </div>
+                        <div style="margin-bottom: 40px;">
+                            <p id="need">Need Help?</p>
+                            <!-- <p>549 Oak St.Crystal Lake, IL 60014</p>
+                            <button>GET DIRECTION</button>  -->
+                            <div class="left-address" >
+                                <p style="margin-bottom: 12px;">549 Oak St.Crystal Lake, IL 60014</p>
+                                <a>GET DIRECTION <i class="fa-solid fa-arrow-right"></i></a>
+                                <ul class="ham-info">
+                                    <li class="second-color" style="border-bottom: none;">
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <p style="margin-bottom: 0;">themesflat@gmail.com</p>
+                                    </li>
+                                    <li class="second-color" style="border-bottom: none;">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <p style="margin-bottom: 0;">315-666-6688</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="ham-dropdown">
+                        <div class="ham-drop-second">
+                            <div class="menu-container us-flag">
+                                <button class="menu-btn"><img src="./images/us.svg"/>USD <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="menu-items">
+                                    <a href="#">Item 1</a>
+                                    <a href="#">Item 2</a>
+                                    <a href="#">Item 3</a>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-container">
+                                <button class="menu-btn">ENGLISH <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="menu-items">
+                                    <a href="#">Item 1</a>
+                                    <a href="#">Item 2</a>
+                                    <a href="#">Item 3</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div> -->
+               </div>
+                
+                <!-- Menu -->
+                <div class="head_links" id="nav-links">
+                    <ul>
+                        <li><a href="#">Home <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Kids</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Kids</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Products <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">New Arrivals</a></li>
+                                <li><a href="#">Best Sellers</a></li>
+                                <li><a href="#">Sale</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">New Arrivals</a></li>
+                                <li><a href="#">Best Sellers</a></li>
+                                <li><a href="#">Sale</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Buy Theme</a></li>
+                    </ul>
+                </div>
+                
+                <!-- SVG Icons -->
+                <div class="head-svg">
+                    <ul>
+                        <li> <a><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M21.35 21.0004L17 16.6504" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></a></li>
+                        <li><a href="#" class="nav-icon-item">
+                            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a></li>
+                        <li class="nav-wishlist"><a href="wish-list.html" class="nav-icon-item">
+                            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.8401 4.60987C20.3294 4.09888 19.7229 3.69352 19.0555 3.41696C18.388 3.14039 17.6726 2.99805 16.9501 2.99805C16.2276 2.99805 15.5122 3.14039 14.8448 3.41696C14.1773 3.69352 13.5709 4.09888 13.0601 4.60987L12.0001 5.66987L10.9401 4.60987C9.90843 3.57818 8.50915 2.99858 7.05012 2.99858C5.59109 2.99858 4.19181 3.57818 3.16012 4.60987C2.12843 5.64156 1.54883 7.04084 1.54883 8.49987C1.54883 9.95891 2.12843 11.3582 3.16012 12.3899L4.22012 13.4499L12.0001 21.2299L19.7801 13.4499L20.8401 12.3899C21.3511 11.8791 21.7565 11.2727 22.033 10.6052C22.3096 9.93777 22.4519 9.22236 22.4519 8.49987C22.4519 7.77738 22.3096 7.06198 22.033 6.39452C21.7565 5.72706 21.3511 5.12063 20.8401 4.60987V4.60987Z" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>  
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#shoppingCart" data-bs-toggle="modal" class="nav-icon-item cart-box">
+                                <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.5078 10.8734V6.36686C16.5078 5.17166 16.033 4.02541 15.1879 3.18028C14.3428 2.33514 13.1965 1.86035 12.0013 1.86035C10.8061 1.86035 9.65985 2.33514 8.81472 3.18028C7.96958 4.02541 7.49479 5.17166 7.49479 6.36686V10.8734M4.11491 8.62012H19.8877L21.0143 22.1396H2.98828L4.11491 8.62012Z" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>  
+                                <span class="cart-num">1</span></a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+            
+
+
+                <!-- Header  Testimonial
+                <div class="owl-carousel first-carousel">
+                    <div class="item">
+                        <div class="testimonial_heads">
+                            <img src="./images//slider-women1 (1).jpg"/>
+                            <div class="test-content">
+                                <p>BIKINIS & SWIMSUITS</p>
+                                <h1>Flash Sale Madness</h1>
+                                <a class="exp"><span>Explore Collection</span><i class="icon icon-arrowUpRight"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial_heads">
+                            <img src="./images/slider-women2.jpg"/>
+                            <div class="test-content">
+                                <p>BIKINIS & SWIMSUITS</p>
+                                <h1>Find Your <br> Signature Style</h1>
+                                <a class="exp"><span>Explore Collection</span><i class="icon icon-arrowUpRight"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div> -->
+                
+
+
+                <!-- Swipper header testimonial -->
+
+               <!-- Swiper -->
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial_heads">
+                            <img src="./images//slider-women1 (1).jpg"/>
+                            <div class="test-content">
+                                <p class="animate__animated animate__fadeInUp">BIKINIS & SWIMSUITS</p>
+                                <h1 class="animate__animated animate__fadeInUp">Flash Sale Madness</h1>
+                                <a class="exp"><span>Explore Collection <i class="fa-solid fa-arrow-right"></i></span><i class="icon icon-arrowUpRight"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial_heads">
+                            <img src="./images/slider-women2.jpg"/>
+                            <div class="test-content">
+                                <p>BIKINIS & SWIMSUITS</p>
+                                <h1>Find Your <br> Signature Style</h1>
+                                <a class="exp"><span>Explore Collection <i class="fa-solid fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                    </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div> -->
+                </div>
+                            
+
+                <!-- Owl Crousel -->
+                <div class="uppr_testimonial">
+                    <div><h3 data-aos="fade-up" class=" animate__animated animate__fadeInUp">Categories you might like</h3></div>
+                    <div><button class="view  animate__animated animate__fadeInUp"  data-aos="fade-up">View All Collection</button></div>
+                </div>
+                
+
+                <div class="owl-carousel second-carousel animate__animated animate__fadeInUp">
+                    <div class="item">
+                        <div class="testimonial_head">
+                            <img src="./images/cls-circle1.jpg"/>
+                            <h4>New in</h4>
+                            <p>12 items</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial_head">
+                            <img src="./images/cls-circle2.jpg"/>
+                            <h4>Promotion</h4>
+                            <p>12 items</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial_head">
+                            <img src="./images/cls-circle3.jpg"/>
+                            <h4>Clothing</h4>
+                            <p>12 items</p>
+                        </div>
+                    </div>
+                   
+                    <div class="item">
+                        <div class="item">
+                            <div class="testimonial_head">
+                                <img src="./images/cls-circle4.jpg"/>
+                                <h4>Shoes</h4>
+                                <p>12 items</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item">
+                            <div class="testimonial_head">
+                                <img src="./images/cls-circle5.jpg"/>
+                                <h4>Bags</h4>
+                                <p>12 items</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial_head">
+                            <img src="./images/cls-circle3.jpg"/>
+                            <h4>Latest Arrivals</h4>
+                            <p>8 items</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                
+                <!-- Product catalog -->
+                <!-- <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <h2>Product Name</h2>
+                        <p>$99.99</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="extra-info">More Info</div>
+                </div> -->
+
+
+
+
+
+                <!-- Product catalog with buttons -->
+                <div class="button-container">
+                    <button class="tab-btn active" onclick="openTab(event, 'tab1')">New Arrivals</button>
+                    <button class="tab-btn" onclick="openTab(event, 'tab2')">Best Seller</button>
+                    <button class="tab-btn" onclick="openTab(event, 'tab3')">On Sale</button>
+                </div>
+            
+                <div id="tab1" class="tab-content active">
+
+                    <div class="product-content">
+                        <div class="card">
+                            <div class="card-image first-card">
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>V-neck cotton T-shirt</h2>
+                                <span class="price">$59.99</span>
+
+                                <!-- <div class="product-btn">
+                                    <button class="s-btn">S</button>
+                                    <button class="m-btn">M</button>
+                                    <button class="l-btn">L</button>
+                                </div> -->
+                            </div>
+                          
+                            <div class="extra-info">
+
+                               <div class="extra-back ">
+                                  <img src="./images/heart.png"/>
+                               </div>
+                               <div class="extra-back extra-middle">
+                                  <img src="./images/left-right-arrows.png"/>
+                                </div>
+                                <div class="extra-back ">
+                                  <img src="./images/visible.png"/>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-image second-card">
+                                <div class="sale-icon">
+                                    <span>-25%</span>
+                                </div>
+                                <div class="marquee-container">
+                                    <div class="marquee">
+                                        <div class="marquee-content">
+                                            <div id="DOW_1" class="nav-ticker">Hot Sale 25% OFF
+                                            </div>
+                                            <div id="NASDAQ_1" class="nav-ticker">Hot Sale 25% OFF 
+                                            </div>
+                                            <div id="S&amp;P500_1" class="nav-ticker">Hot Sale 25% OFF 
+                                            </div>
+                                            <div id="S&amp;P/TSX_1" class="nav-ticker">Hot Sale 25% OFF<span class="sred-color">-0.38%</span>
+                                            </div>
+                                            <!-- <div id="Nikkei 225_1" class="nav-ticker">Nikkei 225 <span class="sgreen-color">0.22%</span>
+                                            </div>
+                                            <div id="NIFTY 50_1" class="nav-ticker">NIFTY 50 <span class="sgreen-color">0.43%</span>
+                                            </div>
+                                            <div id="DAX_1" class="nav-ticker">DAX <span class="sgreen-color">0.5%</span>
+                                            </div>
+                                            <div id="CAC 40_1" class="nav-ticker">CAC 40 <span class="sgreen-color">0.32%</span>
+                                            </div>
+                                            <div id="FTSE100_1" class="nav-ticker">FTSE100 <span class="sred-color">-0.06%</span>
+                                            </div>
+                                            <div id="Hang Seng_1" class="nav-ticker">Hang Seng <span class="sred-color">-1.02%</span>
+                                            </div>
+                                            <div id="Singapore_1" class="nav-ticker">Singapore <span class="sred-color">-0.29%</span>
+                                            </div>
+                                            <div id="Mexico_1" class="nav-ticker">Mexico <span class="sred-color">-1.31%</span>
+                                            </div>
+                                            <div id="Shanghai_1" class="nav-ticker">Shanghai <span class="sred-color">-0.4%</span>
+                                            </div> -->
+                                        </div>
+                                        <div class="marquee-content">
+                                            <div id="DOW_1" class="nav-ticker">Hot Sale 25% OFF<span class="sgreen-color">0.02%</span>
+                                            </div>
+                                            <div id="NASDAQ_1" class="nav-ticker">Hot Sale 25% OFF <span class="sgreen-color">0.16%</span>
+                                            </div>
+                                            <div id="S&amp;P500_1" class="nav-ticker">Hot Sale 25% OFF <span class="sgreen-color">0.16%</span>
+                                            </div>
+                                            <div id="S&amp;P/TSX_1" class="nav-ticker">Hot Sale 25% OFF<span class="sred-color">-0.38%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>Polarized sunglasses</h2>
+                                <span class="price"><span class="line-price">$98.00</span> $79.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn light-blue active" data-image="./images/women-176.jpg"><span></span></button>
+                                    <button class="medium-btn light-blue-2" data-image="./images/women-179.jpg"><span></span></button>
+                                   
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+                      
+                        <div class="card">
+                            <div class="card-image third-card">
+
+                                <div id="timer"></div>
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                               
+                            </div>
+                            <div class="card-content">
+                                <h2>Ramie shirt with pockets</h2>
+                                <span class="price"><span class="line-price">$98.00</span> $89.99</span>
+
+
+                                <div class="product-btn">
+                         
+                                    <button class="small-btn active light-orange" data-image="./images/women-29.jpg"><span></span></button>
+                                    <button class="medium-btn light-grey" data-image="./images/women-33.jpg"><span></span></button>
+
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image fourth-card">
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>Ribbed cotton-blend top</h2>
+                                <span class="price">$69.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active dark-grey" data-image="./images/women-1.jpg"><span></span></button>
+                                    <button class="medium-btn light-pink" data-image="./images/women-2.jpg"><span></span></button>
+                                    <button class="large-btn dark-grey-2" data-image="./images/women-3.jpg"><span></span></button>
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image fifth-card">
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h2>Ribbed cotton-blend top</h2>
+                                <span class="price">$39.99</span>
+
+
+                                <!-- <div class="product-btn">
+                                    <button class="s-btn">S</button>
+                                    <button class="m-btn">M</button>
+                                    <button class="l-btn">L</button>
+                                </div> -->
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image sixth-card">
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>Faux-leather trousers</h2>
+                                <span class="price">$79.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active orange" data-image="./images/women-172.jpg"><span></span></button>
+                                    <button class="medium-btn dark-pink" data-image="./images/women-171.jpg"><span></span></button>
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image seventh-card">
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h2>Belt wrap dress</h2>
+                                <span class="price"><span class="line-price">$98.00</span>$129.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active light-green" data-image="./images/women-83.jpg"><span></span></button>
+                                    <button class="medium-btn grey" data-image="./images/women-87.jpg"><span></span></button>
+                                    <button class="small-btn white" data-image="./images/women-94.jpg"><span></span></button>
+
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image eighth-card">
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h2>Double-button trench coat</h2>
+                                <span class="price"><span class="line-price">$98.00</span>$219.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active grey-2"  data-image="./images/women-102.jpg"><span></span></button>
+                                    <button class="medium-btn light-orange" data-image="./images/women-111.jpg"><span></span></button>
+                                    <button class="small-btn white" data-image="./images/women-104.jpg"><span></span></button>
+
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                   
+                </div>
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+
+            
+                <div id="tab2" class="tab-content">
+                    <div class="product-content">
+                        <div class="card">
+                            <div class="card-image first-card">
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>V-neck cotton T-shirt</h2>
+                                <span class="price">$59.99</span>
+
+                                <!-- <div class="product-btn">
+                                    <button class="s-btn">S</button>
+                                    <button class="m-btn">M</button>
+                                    <button class="l-btn">L</button>
+                                </div> -->
+                            </div>
+                          
+                            <div class="extra-info">
+
+                               <div class="extra-back ">
+                                  <img src="./images/heart.png"/>
+                               </div>
+                               <div class="extra-back extra-middle">
+                                  <img src="./images/left-right-arrows.png"/>
+                                </div>
+                                <div class="extra-back ">
+                                  <img src="./images/visible.png"/>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-image second-card">
+                                <div class="sale-icon">
+                                    <span>-25%</span>
+                                </div>
+                                <div class="marquee-container">
+                                    <div class="marquee">
+                                        <div class="marquee-content">
+                                            <div id="DOW_1" class="nav-ticker">Hot Sale 25% OFF
+                                            </div>
+                                            <div id="NASDAQ_1" class="nav-ticker">Hot Sale 25% OFF 
+                                            </div>
+                                            <div id="S&amp;P500_1" class="nav-ticker">Hot Sale 25% OFF 
+                                            </div>
+                                            <div id="S&amp;P/TSX_1" class="nav-ticker">Hot Sale 25% OFF<span class="sred-color">-0.38%</span>
+                                            </div>
+                                            <!-- <div id="Nikkei 225_1" class="nav-ticker">Nikkei 225 <span class="sgreen-color">0.22%</span>
+                                            </div>
+                                            <div id="NIFTY 50_1" class="nav-ticker">NIFTY 50 <span class="sgreen-color">0.43%</span>
+                                            </div>
+                                            <div id="DAX_1" class="nav-ticker">DAX <span class="sgreen-color">0.5%</span>
+                                            </div>
+                                            <div id="CAC 40_1" class="nav-ticker">CAC 40 <span class="sgreen-color">0.32%</span>
+                                            </div>
+                                            <div id="FTSE100_1" class="nav-ticker">FTSE100 <span class="sred-color">-0.06%</span>
+                                            </div>
+                                            <div id="Hang Seng_1" class="nav-ticker">Hang Seng <span class="sred-color">-1.02%</span>
+                                            </div>
+                                            <div id="Singapore_1" class="nav-ticker">Singapore <span class="sred-color">-0.29%</span>
+                                            </div>
+                                            <div id="Mexico_1" class="nav-ticker">Mexico <span class="sred-color">-1.31%</span>
+                                            </div>
+                                            <div id="Shanghai_1" class="nav-ticker">Shanghai <span class="sred-color">-0.4%</span>
+                                            </div> -->
+                                        </div>
+                                        <div class="marquee-content">
+                                            <div id="DOW_1" class="nav-ticker">Hot Sale 25% OFF<span class="sgreen-color">0.02%</span>
+                                            </div>
+                                            <div id="NASDAQ_1" class="nav-ticker">Hot Sale 25% OFF <span class="sgreen-color">0.16%</span>
+                                            </div>
+                                            <div id="S&amp;P500_1" class="nav-ticker">Hot Sale 25% OFF <span class="sgreen-color">0.16%</span>
+                                            </div>
+                                            <div id="S&amp;P/TSX_1" class="nav-ticker">Hot Sale 25% OFF<span class="sred-color">-0.38%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>Polarized sunglasses</h2>
+                                <span class="price"><span class="line-price">$98.00</span> $79.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn light-blue active" data-image="./images/women-176.jpg"><span></span></button>
+                                    <button class="medium-btn light-blue-2" data-image="./images/women-179.jpg"><span></span></button>
+                                   
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+                      
+                        <div class="card">
+                            <div class="card-image third-card">
+
+                                <div id="timer"></div>
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                               
+                            </div>
+                            <div class="card-content">
+                                <h2>Ramie shirt with pockets</h2>
+                                <span class="price"><span class="line-price">$98.00</span> $89.99</span>
+
+
+                                <div class="product-btn">
+                         
+                                    <button class="small-btn active light-orange" data-image="./images/women-29.jpg"><span></span></button>
+                                    <button class="medium-btn light-grey" data-image="./images/women-33.jpg"><span></span></button>
+
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image fourth-card">
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>Ribbed cotton-blend top</h2>
+                                <span class="price">$69.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active dark-grey" data-image="./images/women-1.jpg"><span></span></button>
+                                    <button class="medium-btn light-pink" data-image="./images/women-2.jpg"><span></span></button>
+                                    <button class="large-btn dark-grey-2" data-image="./images/women-3.jpg"><span></span></button>
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image fifth-card">
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h2>Ribbed cotton-blend top</h2>
+                                <span class="price">$39.99</span>
+
+
+                                <!-- <div class="product-btn">
+                                    <button class="s-btn">S</button>
+                                    <button class="m-btn">M</button>
+                                    <button class="l-btn">L</button>
+                                </div> -->
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image sixth-card">
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>Faux-leather trousers</h2>
+                                <span class="price">$79.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active orange" data-image="./images/women-172.jpg"><span></span></button>
+                                    <button class="medium-btn dark-pink" data-image="./images/women-171.jpg"><span></span></button>
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image seventh-card">
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h2>Belt wrap dress</h2>
+                                <span class="price"><span class="line-price">$98.00</span>$129.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active light-green" data-image="./images/women-83.jpg"><span></span></button>
+                                    <button class="medium-btn grey" data-image="./images/women-87.jpg"><span></span></button>
+                                    <button class="small-btn white" data-image="./images/women-94.jpg"><span></span></button>
+
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image eighth-card">
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h2>Double-button trench coat</h2>
+                                <span class="price"><span class="line-price">$98.00</span>$219.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active grey-2"  data-image="./images/women-102.jpg"><span></span></button>
+                                    <button class="medium-btn light-orange" data-image="./images/women-111.jpg"><span></span></button>
+                                    <button class="small-btn white" data-image="./images/women-104.jpg"><span></span></button>
+
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="tab3" class="tab-content">
+                    <div class="product-content">
+                        <div class="card">
+                            <div class="card-image first-card">
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>V-neck cotton T-shirt</h2>
+                                <span class="price">$59.99</span>
+
+                                <!-- <div class="product-btn">
+                                    <button class="s-btn">S</button>
+                                    <button class="m-btn">M</button>
+                                    <button class="l-btn">L</button>
+                                </div> -->
+                            </div>
+                          
+                            <div class="extra-info">
+
+                               <div class="extra-back ">
+                                  <img src="./images/heart.png"/>
+                               </div>
+                               <div class="extra-back extra-middle">
+                                  <img src="./images/left-right-arrows.png"/>
+                                </div>
+                                <div class="extra-back ">
+                                  <img src="./images/visible.png"/>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-image second-card">
+                                <div class="sale-icon">
+                                    <span>-25%</span>
+                                </div>
+                                <div class="marquee-container">
+                                    <div class="marquee">
+                                        <div class="marquee-content">
+                                            <div id="DOW_1" class="nav-ticker">Hot Sale 25% OFF
+                                            </div>
+                                            <div id="NASDAQ_1" class="nav-ticker">Hot Sale 25% OFF 
+                                            </div>
+                                            <div id="S&amp;P500_1" class="nav-ticker">Hot Sale 25% OFF 
+                                            </div>
+                                            <div id="S&amp;P/TSX_1" class="nav-ticker">Hot Sale 25% OFF<span class="sred-color">-0.38%</span>
+                                            </div>
+                                            <!-- <div id="Nikkei 225_1" class="nav-ticker">Nikkei 225 <span class="sgreen-color">0.22%</span>
+                                            </div>
+                                            <div id="NIFTY 50_1" class="nav-ticker">NIFTY 50 <span class="sgreen-color">0.43%</span>
+                                            </div>
+                                            <div id="DAX_1" class="nav-ticker">DAX <span class="sgreen-color">0.5%</span>
+                                            </div>
+                                            <div id="CAC 40_1" class="nav-ticker">CAC 40 <span class="sgreen-color">0.32%</span>
+                                            </div>
+                                            <div id="FTSE100_1" class="nav-ticker">FTSE100 <span class="sred-color">-0.06%</span>
+                                            </div>
+                                            <div id="Hang Seng_1" class="nav-ticker">Hang Seng <span class="sred-color">-1.02%</span>
+                                            </div>
+                                            <div id="Singapore_1" class="nav-ticker">Singapore <span class="sred-color">-0.29%</span>
+                                            </div>
+                                            <div id="Mexico_1" class="nav-ticker">Mexico <span class="sred-color">-1.31%</span>
+                                            </div>
+                                            <div id="Shanghai_1" class="nav-ticker">Shanghai <span class="sred-color">-0.4%</span>
+                                            </div> -->
+                                        </div>
+                                        <div class="marquee-content">
+                                            <div id="DOW_1" class="nav-ticker">Hot Sale 25% OFF<span class="sgreen-color">0.02%</span>
+                                            </div>
+                                            <div id="NASDAQ_1" class="nav-ticker">Hot Sale 25% OFF <span class="sgreen-color">0.16%</span>
+                                            </div>
+                                            <div id="S&amp;P500_1" class="nav-ticker">Hot Sale 25% OFF <span class="sgreen-color">0.16%</span>
+                                            </div>
+                                            <div id="S&amp;P/TSX_1" class="nav-ticker">Hot Sale 25% OFF<span class="sred-color">-0.38%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>Polarized sunglasses</h2>
+                                <span class="price"><span class="line-price">$98.00</span> $79.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn light-blue active" data-image="./images/women-176.jpg"><span></span></button>
+                                    <button class="medium-btn light-blue-2" data-image="./images/women-179.jpg"><span></span></button>
+                                   
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+                      
+                        <div class="card">
+                            <div class="card-image third-card">
+
+                                <div id="timer"></div>
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                               
+                            </div>
+                            <div class="card-content">
+                                <h2>Ramie shirt with pockets</h2>
+                                <span class="price"><span class="line-price">$98.00</span> $89.99</span>
+
+
+                                <div class="product-btn">
+                         
+                                    <button class="small-btn active light-orange" data-image="./images/women-29.jpg"><span></span></button>
+                                    <button class="medium-btn light-grey" data-image="./images/women-33.jpg"><span></span></button>
+
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image fourth-card">
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>Ribbed cotton-blend top</h2>
+                                <span class="price">$69.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active dark-grey" data-image="./images/women-1.jpg"><span></span></button>
+                                    <button class="medium-btn light-pink" data-image="./images/women-2.jpg"><span></span></button>
+                                    <button class="large-btn dark-grey-2" data-image="./images/women-3.jpg"><span></span></button>
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image fifth-card">
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h2>Ribbed cotton-blend top</h2>
+                                <span class="price">$39.99</span>
+
+
+                                <!-- <div class="product-btn">
+                                    <button class="s-btn">S</button>
+                                    <button class="m-btn">M</button>
+                                    <button class="l-btn">L</button>
+                                </div> -->
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image sixth-card">
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="card-content">
+                                <h2>Faux-leather trousers</h2>
+                                <span class="price">$79.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active orange" data-image="./images/women-172.jpg"><span></span></button>
+                                    <button class="medium-btn dark-pink" data-image="./images/women-171.jpg"><span></span></button>
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image seventh-card">
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h2>Belt wrap dress</h2>
+                                <span class="price"><span class="line-price">$98.00</span>$129.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active light-green" data-image="./images/women-83.jpg"><span></span></button>
+                                    <button class="medium-btn grey" data-image="./images/women-87.jpg"><span></span></button>
+                                    <button class="small-btn white" data-image="./images/women-94.jpg"><span></span></button>
+
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image eighth-card">
+                                <span class="add-to-carts">
+                                    
+                                    <button class="quick-btn">QUICK ADD</button>
+                                    <div class="size-btn">
+                                        <!-- <ul>
+                                            <li class="a-size">S</li>
+                                            <li class="a-size">M</li>
+                                            <li class="a-size">L</li>
+                                            <li class="a-size">XL</li>
+                                        </ul> -->
+                                        <span>S</span>
+                                        <span>M</span>
+                                        <span>L</span>
+                                        <span>XL</span>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h2>Double-button trench coat</h2>
+                                <span class="price"><span class="line-price">$98.00</span>$219.99</span>
+
+
+                                <div class="product-btn">
+                                    <button class="small-btn active grey-2"  data-image="./images/women-102.jpg"><span></span></button>
+                                    <button class="medium-btn light-orange" data-image="./images/women-111.jpg"><span></span></button>
+                                    <button class="small-btn white" data-image="./images/women-104.jpg"><span></span></button>
+
+                                </div>
+                            </div>
+                          
+                            <div class="extra-info">
+
+                                <div class="extra-back ">
+                                   <img src="./images/heart.png"/>
+                                </div>
+                                <div class="extra-back extra-middle">
+                                   <img src="./images/left-right-arrows.png"/>
+                                 </div>
+                                 <div class="extra-back ">
+                                   <img src="./images/visible.png"/>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="view_all">
+                    <button>View All Products</button>
+                </div>
+
+
+                <!-- Bag section -->
+                 <div class="bag_section">
+                    <div class="first_bag">
+                        <img src="./images/banner-cls1.jpg"/>
+                        <div>
+                            <h4>Crossbody bag</h4>
+                            <p>From beach to party: Perfect styles for every occasion.</p>
+                            <button>Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="second_bag">
+                        <img src="./images/banner-cls2.jpg"/>
+                        <div class="second-abs">
+                            <h4>Capsule Collectiong</h4>
+                            <p>Reserved for special occasions.</p>
+                            <button>Shop Now </button>
+                        </div>
+                    </div>
+                 </div>
+
+
+
+                 <!-- Countdown -->
+                 <div class="count">
+                    <div class="count-left">
+                        <h3>Limited-Time Deals On!</h3>
+                        <p>Up to 50% Off Selected Styles. Don't Miss Out.</p>
+                        <button>Shop Now <i class="fa-solid fa-arrow-right-long rotated-arrow"></i></button>
+                    </div>
+                    <div class="count-middle">
+                        <img src="./images/img-countdown1.png"/>
+                    </div>
+                    <div class="count-middles">
+                        <img src="./images/img-countdown1.png"/>
+                    </div>
+                    <div class="count-right">
+                        <!-- <h1>Countdown</h1> -->
+                        <div id="countdown">
+                            <div class="time-box">
+                                <div class="number" id="days">00 :<p>:</p></div>
+                                <div class="label">Days</div>
+                            </div>
+                            <div class="time-box">
+                                <div class="number" id="hours">00 :</div>
+                                <div class="label">Hours</div>
+                            </div>
+                            <div class="time-box">
+                                <div class="number" id="minutes">00 :</div>
+                                <div class="label">Mins</div>
+                            </div>
+                            <div class="time-box">
+                                <div class="number" id="seconds">00 :</div>
+                                <div class="label">Secs</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third crousel -->
+
+                <div class="news-text">
+                    <h1>Customer Say!
+                    </h1>
+                    <p>Our customers adore our products, and we constantly aim to delight them.</p>
+                </div>
+                <div class="owl-carousel third-carousel">
+                    <div class="item">
+                        <div style="border: 1px solid #e9e9e9; border-radius: 10px;" class="testimonial_headth">
+                            <div class="third-img" style="width: 40%;"> <img style="border-radius: 10px 0 0 10px;"  src="./images//tes-1.jpg"/></div>
+                            <div class="third-item" style="width: 60%; padding: 26px; display: flex; justify-content: space-between; flex-direction: column;"> 
+                                <div>
+                                    <div style="display: flex; color: #f0a750; font-size: 14px; gap: 2px; margin-bottom: 10px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                                    <p class="third-item-p" style="color: #4d4e4f; margin: 20px 0; line-height: 30px;">"Fantastic shop! Great selection, fair prices, and friendly staff. Highly recommended. The quality of the products is exceptional, and the prices are very reasonable!"</p>
+                                    <div style="display: flex; gap: 10px;">
+                                        <p style="    font-size: 16px;
+                                        line-height: 24px;
+                                        font-weight: 500;">Sybil Sharp</p>
+                                        <svg class="icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_15758_14563)">
+                                            <path d="M6.875 11.6255L8.75 13.5005L13.125 9.12549" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M10 18.5005C14.1421 18.5005 17.5 15.1426 17.5 11.0005C17.5 6.85835 14.1421 3.50049 10 3.50049C5.85786 3.50049 2.5 6.85835 2.5 11.0005C2.5 15.1426 5.85786 18.5005 10 18.5005Z" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_15758_14563">
+                                            <rect width="20" height="20" fill="white" transform="translate(0 0.684082)"></rect>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div style="display: flex;margin-top:15px; gap: 20px; border-top: 1px solid #e9e9e9; padding-top: 20px;">
+                                    <div ><img style="border-radius: 50%; width: 50px;" src="./images/user-4.jpg"/></div>
+                                    <div style="display: flex; flex-direction: column; justify-content: space-between;">
+                                        <p>Contrasting sheepskin sweatshirt</p>
+                                        <p>$60.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div style="border: 1px solid #e9e9e9; border-radius: 10px;" class="testimonial_headth">
+                            <div class="third-img" style="width: 40%;"> <img style="border-radius: 10px 0 0 10px;"  src="./images//tes-2.jpg"/></div>
+                            <div class="third-item" style="width: 60%; padding: 26px; display: flex; justify-content: space-between; flex-direction: column;"> 
+                                <div>
+                                    <div style="display: flex; color: #f0a750; font-size: 14px; gap: 2px; margin-bottom: 10px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                                    <p class="third-item-p" style="color: #4d4e4f; margin: 20px 0; line-height: 30px;">"Fantastic shop! Great selection, fair prices, and friendly staff. Highly recommended. The quality of the products is exceptional, and the prices are very reasonable!"</p>
+                                    <div style="display: flex; gap: 10px;">
+                                        <p style="    font-size: 16px;
+                                        line-height: 24px;
+                                        font-weight: 500;">Sybil Sharp</p>
+                                        <svg class="icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_15758_14563)">
+                                            <path d="M6.875 11.6255L8.75 13.5005L13.125 9.12549" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M10 18.5005C14.1421 18.5005 17.5 15.1426 17.5 11.0005C17.5 6.85835 14.1421 3.50049 10 3.50049C5.85786 3.50049 2.5 6.85835 2.5 11.0005C2.5 15.1426 5.85786 18.5005 10 18.5005Z" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_15758_14563">
+                                            <rect width="20" height="20" fill="white" transform="translate(0 0.684082)"></rect>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div style="display: flex; margin-top:15px; gap: 20px; border-top: 1px solid #e9e9e9; padding-top: 20px;">
+                                    <div ><img style="border-radius: 50%; width: 50px;" src="./images/user-4.jpg"/></div>
+                                    <div style="display: flex; flex-direction: column; justify-content: space-between;">
+                                        <p>Contrasting sheepskin sweatshirt</p>
+                                        <p>$60.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="item">
+                        <div style="border: 1px solid #e9e9e9; border-radius: 10px;" class="testimonial_headth">
+                            <div class="third-img" style="width: 40%;"> <img style="border-radius: 10px 0 0 10px;"  src="./images//tes-1.jpg"/></div>
+                            <div style="width: 60%; padding: 26px; display: flex; justify-content: space-between; flex-direction: column;"> 
+                                <div>
+                                    <div style="display: flex; color: #f0a750; font-size: 14px; gap: 2px; margin-bottom: 10px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                                    <p style="color: #4d4e4f; margin: 20px 0; line-height: 30px;">"Fantastic shop! Great selection, fair prices, and friendly staff. Highly recommended. The quality of the products is exceptional, and the prices are very reasonable!"</p>
+                                    <div style="display: flex; gap: 10px;">
+                                        <p style="    font-size: 16px;
+                                        line-height: 24px;
+                                        font-weight: 500;">Sybil Sharp</p>
+                                        <svg class="icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_15758_14563)">
+                                            <path d="M6.875 11.6255L8.75 13.5005L13.125 9.12549" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M10 18.5005C14.1421 18.5005 17.5 15.1426 17.5 11.0005C17.5 6.85835 14.1421 3.50049 10 3.50049C5.85786 3.50049 2.5 6.85835 2.5 11.0005C2.5 15.1426 5.85786 18.5005 10 18.5005Z" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_15758_14563">
+                                            <rect width="20" height="20" fill="white" transform="translate(0 0.684082)"></rect>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div style="display: flex; margin-top:15px; gap: 20px; border-top: 1px solid #e9e9e9; padding-top: 20px;">
+                                    <div ><img style="border-radius: 50%; width: 50px;" src="./images/user-4.jpg"/></div>
+                                    <div style="display: flex; flex-direction: column; justify-content: space-between;">
+                                        <p>Contrasting sheepskin sweatshirt</p>
+                                        <p>$60.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div style="border: 1px solid #e9e9e9; border-radius: 10px;" class="testimonial_headth">
+                            <div class="third-img" style="width: 40%;"> <img style="border-radius: 10px 0 0 10px;"  src="./images//tes-2.jpg"/></div>
+                            <div style="width: 60%; padding: 26px; display: flex; justify-content: space-between; flex-direction: column;"> 
+                                <div>
+                                    <div style="display: flex; color: #f0a750; font-size: 14px; gap: 2px; margin-bottom: 10px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                                    <p style="color: #4d4e4f; margin: 20px 0; line-height: 30px;">"Fantastic shop! Great selection, fair prices, and friendly staff. Highly recommended. The quality of the products is exceptional, and the prices are very reasonable!"</p>
+                                    <div style="display: flex; gap: 10px;">
+                                        <p style="    font-size: 16px;
+                                        line-height: 24px;
+                                        font-weight: 500;">Sybil Sharp</p>
+                                        <svg class="icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_15758_14563)">
+                                            <path d="M6.875 11.6255L8.75 13.5005L13.125 9.12549" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M10 18.5005C14.1421 18.5005 17.5 15.1426 17.5 11.0005C17.5 6.85835 14.1421 3.50049 10 3.50049C5.85786 3.50049 2.5 6.85835 2.5 11.0005C2.5 15.1426 5.85786 18.5005 10 18.5005Z" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_15758_14563">
+                                            <rect width="20" height="20" fill="white" transform="translate(0 0.684082)"></rect>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div style="display: flex; margin-top:15px; gap: 20px; border-top: 1px solid #e9e9e9; padding-top: 20px;">
+                                    <div ><img style="border-radius: 50%; width: 50px;" src="./images/user-4.jpg"/></div>
+                                    <div style="display: flex; flex-direction: column; justify-content: space-between;">
+                                        <p>Contrasting sheepskin sweatshirt</p>
+                                        <p>$60.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+
+
+              
+
+
+
+
+                <!-- News section -->
+                 <div class="news-text">
+                     <h1>News insight</h1>
+                     <p>Browse our Top Trending: the hottest picks loved by all.</p>
+                 </div>
+                
+
+                 <div class="owl-carousel flex-container fifth-carousel">
+                    <div class="item">
+                        <div class="flex-item">
+                            <div class="zoom-img">
+                                <img src="./images/blog-grid-1.jpg"/>
+                            </div>
+                            
+                            <p>13 August</p>
+                            <a ><span class="un">Top 10 Summer Fashion Trends You Can't Miss in 2024</span></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="flex-item">
+                            <div class="zoom-img">
+                                <img src="./images/blog-grid-8.jpg"/>
+                            </div>
+                            
+                            <p>13 August</p>
+                            <a>Top 10 Summer Fashion Trends You Can't Miss in 2024</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="flex-item">
+                            <div class="zoom-img">
+                                <img src="./images/blog-grid-6.jpg"/>
+                            </div>
+                            
+                            <p>13 August</p>
+                            <a>Top 10 Summer Fashion Trends You Can't Miss in 2024</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="flex-item">
+                            <div class="zoom-img">
+                                <img src="./images/blog-grid-1.jpg"/>
+                            </div>
+                            
+                            <p>13 August</p>
+                            <a>Top 10 Summer Fashion Trends You Can't Miss in 2024</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="fifth-insight">
+                    <div class="flex-container">
+                        <div class="flex-item">
+                            <div class="zoom-img">
+                                <img src="./images/blog-grid-1.jpg"/>
+                            </div>
+                            
+                            <p>13 August</p>
+                            <a>Top 10 Summer Fashion Trends You Can't Miss in 2024</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa.</p>
+                        </div>
+                        <div class="flex-item">  <div  class="zoom-img">
+                            <img src="./images/blog-grid-8.jpg"/>
+                        </div>
+                            <p>13 August</p>
+                            <a>Top 10 Summer Fashion Trends You Can't Miss in 2024</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa.</p></div>
+                        <div class="flex-item">  <div  class="zoom-img">
+                            <img src="./images/blog-grid-6.jpg"/>
+                        </div>
+                            <p>13 August</p>
+                            <a>Top 10 Summer Fashion Trends You Can't Miss in 2024</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa.</p></div>
+                        
+                    </div>
+                </div>
+                
+
+
+                <!-- Instagram -->
+                <div class="news-text">
+                    <h1>Shop Instagram</h1>
+                    <p>Elevate your wardrobe with fresh finds today!</p>
+                </div>
+
+
+                <div class="owl-carousel gallery fourth-carousel">
+                    <div class="item">
+                        <div class="gallery-items">
+                            <div class="gallery-image">
+                                <img src="./images/gallery-1.jpg" alt="Gallery Image 1"/>
+                            </div>
+                            <div class="gallery-link">
+                                <a style="display: flex; justify-content: center; align-items: center;" href="#"><img class="eye" src="./images//visible.png"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="gallery-items">
+                            <div class="gallery-image">
+                                <img src="./images/gallery-2.jpg" alt="Gallery Image 1"/>
+                            </div>
+                            <div class="gallery-link">
+                                <a style="display: flex; justify-content: center; align-items: center;" href="#"><img class="eye" src="./images//visible.png"/></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="gallery-items">
+                            <div class="gallery-image">
+                                <img src="./images/gallery-3.jpg" alt="Gallery Image 1"/>
+                            </div>
+                            <div class="gallery-link">
+                                <a style="display: flex; justify-content: center; align-items: center;" href="#"><img class="eye" src="./images//visible.png"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="gallery-items">
+                            <div class="gallery-image">
+                                <img src="./images/gallery-4.jpg" alt="Gallery Image 1"/>
+                            </div>
+                            <div class="gallery-link">
+                                <a style="display: flex; justify-content: center; align-items: center;" href="#"><img class="eye" src="./images//visible.png"/></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="g-resp">
+                    <div class="gallery">
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="./images/gallery-1.jpg" alt="Gallery Image 1"/>
+                            </div>
+                            <div class="gallery-link">
+                                <a style="display: flex; justify-content: center; align-items: center;" href="#"><img class="eye" src="./images//visible.png"/></a>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="./images/gallery-2.jpg" alt="Gallery Image 2"/>
+                            </div>
+                            <div class="gallery-link">
+                                <a style="display: flex; justify-content: center; align-items: center;" href="#"><img class="eye" src="./images//visible.png"/></a>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="./images/gallery-3.jpg" alt="Gallery Image 3"/>
+                            </div>
+                            <div class="gallery-link">
+                                <a style="display: flex; justify-content: center; align-items: center;" href="#"><img class="eye" src="./images//visible.png"/></a>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="./images/gallery-4.jpg" alt="Gallery Image 4"/>
+                            </div>
+                            <div class="gallery-link">
+                                <a style="display: flex; justify-content: center; align-items: center;" href="#"><img class="eye" src="./images//visible.png"/></a>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-image">
+                                <img src="./images/gallery-5.jpg" alt="Gallery Image 5"/>
+                            </div>
+                            <div class="gallery-link">
+                                <a style="display: flex; justify-content: center; align-items: center;" href="#"><img class="eye" src="./images//visible.png"/></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                
+
+
+
+
+                <!-- Trust Icons -->
+
+
+                <div class="owl-carousel flex-container sixth-carousel trust-container">
+                    <div class="item">
+                        <div class="titems">
+                            <span  class="trust-icon"><img style="width: 35px;" src="./images/right.png"/></span>
+                            <p>14-Day Returns</p>
+                            <p>Risk-free shopping with easy returns.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="titems">
+                            <span  class="trust-icon"><img style="width: 35px;" src="./images/truck (1).png"/></span>
+                            <p>Free Shipping</p>
+                            <p>No extra costs, just the price you see.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="titems">
+                            <span  class="trust-icon"><img style="width: 35px;" src="./images/headphones.png"/></span>
+                            <p>24/7 Support</p>
+                            <p>24/7 support, always here just for you</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="titems">
+                            <span  class="trust-icon"><img style="width: 35px;" src="./images/discount (2).png"/></span>
+                            <p>Member Discounts</p>
+                            <p>Special prices for our loyal customers.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="item">
+                        <div class="titems">
+                            <span  class="trust-icon"><img style="width: 35px;" src="./images/right.png"/></span>
+                            <p>14-Day Returns</p>
+                            <p>Risk-free shopping with easy returns.</p>
+                        </div>
+                    </div> -->
+                </div>
+
+
+
+                <div class="fifth-insight">
+                    <div class="trust-container">
+                        <div class="titems">
+                            <span  class="trust-icon"><img style="width: 35px;" src="./images/right.png"/></span>
+                            <p>14-Day Returns</p>
+                            <p>Risk-free shopping with easy returns.</p>
+                        </div>
+                        <div class="titems">
+                            <span class="trust-icon"><img style="width: 35px;" src="./images/truck (1).png"/></span>
+                            <p>Free Shipping</p>
+                            <p>No extra costs, just the price you see.</p>
+                        </div>
+                        <div class="titems">
+                            <span class="trust-icon"><img style="width: 35px;" src="./images/headphones.png"/></span>
+                            <p>24/7 Support</p>
+                            <p>24/7 support, always here just for you</p>
+                        </div>
+                        <div class="titems">
+                            <span class="trust-icon"><img style="width: 35px;" src="./images/discount (2).png"/></span>
+                            <p>Member Discounts</p>
+                            <p>Special prices for our loyal customers.</p>
+                        </div>
+                    </div>
+                </div>
+               
+            
+
+
+
+
+
+
+                
+
+
+
+
+                 <footer>
+                    <div class="footer-parent">
+                        <div class="left-foot">
+                            <div><img src="./images/logo.svg"/></div>
+                            <div class="left-address">
+                                <p>549 Oak St.Crystal Lake, IL 60014</p>
+                                <a>GET DIRECTION <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <ul class="footer-info">
+                                <li class="second-color">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <p>themesflat@gmail.com</p>
+                                </li>
+                                <li class="second-color">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>315-666-6688</p>
+                                </li>
+                            </ul>
+                            <ul class="fsocial">
+                                <li>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </li>
+                                    
+                                <li>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-amazon"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-middle">
+                            <div>
+                                <p>Information</p>
+                                <ul>
+                                    <li>About Us</li>
+                                    <li>Our Stories</li>
+                                    <li>Size Guide</li>
+                                    <li>Contact us</li>
+                                    <li>Career</li>
+                                    <li>My Account</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>Customer Services</p>
+                                <ul>
+                                    <li>Shipping</li>
+                                    <li>Return & Refund</li>
+                                    <li>Privacy Policy</li>
+                                    <li>Terms & Conditions</li>
+                                    <li>Orders FAQs</li>
+                                    <li>My Wishlist</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-end">
+                            <h4>Newsletter</h4>
+                            <div class="news-part">
+                                <p class="second-color">Sign up for our newsletter and get 10% off your first purchase</p>
+                                <div class="input-container">
+                                    <input type="text" placeholder="Enter your e-mail">
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                                <div class="check">
+                                    <input type="checkbox" >
+                                    <label for="vehicle1"> By clicking subcribe, you agree to the <a class="fw-6 link" href="#">Terms of Service</a>  and <a class="fw-6 link" href="#">Privacy Policy</a></label>
+                                </div>
+                            </div>
+                            
+                        </div> 
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="bottom-first">
+                            <div>
+                                <p>©2024 Modave. All Rights Reserved.</p>
+                            </div>
+                            <div class="footer-menu">
+                                <div class="menu-container flag-menu">
+                                    <button class="menu-btn"><img src="./images/us.svg"/>USD <i class="fa-solid fa-chevron-down"></i></button>
+                                    <div class="menu-items flag-menu-items">
+                                        <a href="#"><img src="./images//us.svg"/>USD</a>
+                                        <a href="#"><img src="./images/vn.svg"/>VND</a>
+                                        <!-- <a href="#">Item 3</a> -->
+                                    </div>
+                                </div>
+                                
+                                <div class="menu-container">
+                                    <button class="menu-btn">ENGLISH <i class="fa-solid fa-chevron-down"></i></button>
+                                    <div class="menu-items">
+                                        <a href="#">English</a>
+                                        <a href="#">Vietnam</a>
+                                        <!-- <a href="#">Item 3</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            
+                        </div>
+                        <div class="bottom-second">
+                            <p>Payment</p>
+                            <div>
+                                <img src="./images/img-1.png"/>
+                                <img src="./images/img-2.png"/>
+                                <img src="./images/img-3.png"/>
+                                <img src="./images/img-4.png"/>
+                                <img src="./images/img-5.png"/>
+                                <img src="./images/img-6.png"/>
+                            </div>
+                        </div>
+                    </div>
+                 </footer>
+
+         </div>
+    </div>
+
+    <!-- ANimation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration
+            once: false,    // Whether animation should happen only once
+            mirror: true    // Whether elements should animate when scrolling back up
+        });
+    </script>
+    <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  <!-- Include Owl Carousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/owl.carousel/dist/owl.carousel.min.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
